@@ -1,0 +1,30 @@
+
+> shelbyhub@0.1.0 type-check
+> tsc --noEmit
+
+src/components/LinkManager.tsx(228,13): error TS2345: Argument of type 'Pick<SocialLink, "title" | "url">' is not assignable to parameter of type 'Omit<SocialLink, "createdAt" | "id" | "clicks" | "order">'.
+  Property 'active' is missing in type 'Pick<SocialLink, "title" | "url">' but required in type 'Omit<SocialLink, "createdAt" | "id" | "clicks" | "order">'.
+src/components/WalletConnect.tsx(17,61): error TS2339: Property 'connecting' does not exist on type 'WalletContextState'.
+src/hooks/index.ts(121,27): error TS2339: Property 'bcsToBytes' does not exist on type '{ authenticator: AccountAuthenticator; rawTransaction: Uint8Array<ArrayBufferLike>; }'.
+src/hooks/index.ts(121,47): error TS2339: Property 'bcsToBytes' does not exist on type '{ authenticator: AccountAuthenticator; rawTransaction: Uint8Array<ArrayBufferLike>; }'.
+src/lib/shelbyClient.ts(85,17): error TS7053: Element implicitly has an 'any' type because expression of type '"shelbynet" | "mainnet" | "testnet"' can't be used to index type '{ readonly shelbynet: { readonly rpcUrl: "https://rpc.shelby.network"; readonly aggregatorUrl: "https://aggregator.shelby.network"; readonly publisherUrl: "https://publisher.shelby.network"; readonly gatewayUrl: "https://gateway.shelby.network"; readonly explorerUrl: "https://explorer.shelby.network"; }; readonly te...'.
+  Property 'mainnet' does not exist on type '{ readonly shelbynet: { readonly rpcUrl: "https://rpc.shelby.network"; readonly aggregatorUrl: "https://aggregator.shelby.network"; readonly publisherUrl: "https://publisher.shelby.network"; readonly gatewayUrl: "https://gateway.shelby.network"; readonly explorerUrl: "https://explorer.shelby.network"; }; readonly te...'.
+src/lib/shelbyClient.ts(163,62): error TS2345: Argument of type 'Uint8Array<ArrayBufferLike>' is not assignable to parameter of type 'BufferSource'.
+  Type 'Uint8Array<ArrayBufferLike>' is not assignable to type 'ArrayBufferView<ArrayBuffer>'.
+    Types of property 'buffer' are incompatible.
+      Type 'ArrayBufferLike' is not assignable to type 'ArrayBuffer'.
+        Type 'SharedArrayBuffer' is missing the following properties from type 'ArrayBuffer': resizable, resize, detached, transfer, transferToFixedLength
+src/lib/shelbyClient.ts(185,7): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(input: string | URL | Request, init?: RequestInit | undefined): Promise<Response>', gave the following error.
+    Type 'Uint8Array<ArrayBufferLike>' is not assignable to type 'BodyInit | null | undefined'.
+      Type 'Uint8Array<ArrayBufferLike>' is missing the following properties from type 'URLSearchParams': size, append, delete, get, and 2 more.
+  Overload 2 of 2, '(input: URL | RequestInfo, init?: RequestInit | undefined): Promise<Response>', gave the following error.
+    Type 'Uint8Array<ArrayBufferLike>' is not assignable to type 'BodyInit | null | undefined'.
+      Type 'Uint8Array<ArrayBufferLike>' is missing the following properties from type 'URLSearchParams': size, append, delete, get, and 2 more.
+src/lib/shelbyClient.ts(200,7): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(input: string | URL | Request, init?: RequestInit | undefined): Promise<Response>', gave the following error.
+    Type 'Uint8Array<ArrayBufferLike>' is not assignable to type 'BodyInit | null | undefined'.
+      Type 'Uint8Array<ArrayBufferLike>' is missing the following properties from type 'URLSearchParams': size, append, delete, get, and 2 more.
+  Overload 2 of 2, '(input: URL | RequestInfo, init?: RequestInit | undefined): Promise<Response>', gave the following error.
+    Type 'Uint8Array<ArrayBufferLike>' is not assignable to type 'BodyInit | null | undefined'.
+      Type 'Uint8Array<ArrayBufferLike>' is missing the following properties from type 'URLSearchParams': size, append, delete, get, and 2 more.
