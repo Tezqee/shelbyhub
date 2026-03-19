@@ -1,4 +1,4 @@
-**# 🚀 ShelbyHub
+# 🚀 ShelbyHub
 
 > **Link-in-bio + File Sharing + Web3 Storage Platform** powered by Shelby Protocol & Aptos
 
@@ -38,4 +38,4 @@ Clone repository:
 
 ```bash
 git clone https://github.com/Tezqee/shelbyhub.git
-cd shelbyhub**
+cd shelbyhub
