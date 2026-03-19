@@ -4,7 +4,6 @@
   "outputDirectory": ".next",
   "installCommand": "npm install",
   "devCommand": "npm run dev",
-  "regions": ["sin1", "sfo1"],
   "headers": [
     {
       "source": "/(.*)",
