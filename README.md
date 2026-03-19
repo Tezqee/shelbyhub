@@ -2,12 +2,12 @@
 
 > **Link-in-bio + File Sharing + Web3 Storage Platform** powered by Shelby Protocol & Aptos
 
-ShelbyHub adalah platform modern yang menggabungkan:
-- 🔗 Link-in-bio (seperti Linktree)
+ShelbyHub is a modern platform that combines:
+- 🔗 Link-in-bio (like Linktree)
 - 📂 File sharing
 - ☁️ Web3 decentralized storage
 
-Dirancang untuk creator, developer, dan Web3 user agar bisa **menyimpan, berbagi, dan mengelola konten secara decentralized**.
+Built for creators, developers, and Web3 users to **store, share, and manage content in a decentralized way**.
 
 ---
 
